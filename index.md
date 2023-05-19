@@ -1,7 +1,6 @@
-Hello and welcome to this blog. Edit the `index.md` file to change this content. All pages on the blog, including this one, use [Markdown](https://guides.github.com/features/mastering-markdown/). You can include images:
+## Thomas Rooth's Blog
 
 ![Image of fast.ai logo](images/logo.png)
 
-## This is a title
-
-And you can include links, like this [link to fast.ai](https://www.fast.ai). Posts will appear after this file. 
+I am an undergraduate student in my last semester at UQ. I am a mechatronics major, but I am fascinated by the world of computer vision and AI.
+I have been inspired by [Jeremy Howard](https://au.linkedin.com/in/howardjeremy) to learn all I can about the developing field of fastai.
