@@ -17,7 +17,9 @@ I chose the following animals:
 {% include info.html text="I selected these animals as they are distinct from each other to make classification easier." %}\
 
 
-searches = 'cat', 'eagle', 'turtle', 'cow', 'horse', 'anteater', 'shark', 'penguin', 'crocodile', 'dragonfly'
+# Modified image searcher for classification.
+
+`searches = 'cat', 'eagle', 'turtle', 'cow', 'horse', 'anteater', 'shark', 'penguin', 'crocodile', 'dragonfly'
 path = Path('Animal Classifier')
 from time import sleep
 
@@ -26,4 +28,6 @@ for o in searches:
     dest.mkdir(exist_ok=True, parents=True)
     download_images(dest, urls=search_images(f'{o} photo'))
     sleep(6)
-    resize_images(path/o, max_size=400, dest=path/o)
+    resize_images(path/o, max_size=400, dest=path/o)`
+    
+
