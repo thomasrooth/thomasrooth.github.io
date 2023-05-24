@@ -1,1 +1,5 @@
-## Loss and Accuracy
+# Loss and Accuracy
+
+Now that I have some experience using fastai to create models, I started exploring different methods of investigating the effectiveness of the models I was designing.
+
+
