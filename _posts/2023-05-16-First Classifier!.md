@@ -1,4 +1,4 @@
-##My First Classifier!
+# My First Classifier!
 
 I just finished writing my first classifier in a Jupyter Notebook using fastai based on the example provided in the 'Is it a bird?' lesson. It was surprisingly simple! My task was to adapt the classifer so that it could identify 10 differnet animals. 
 
@@ -17,7 +17,7 @@ I chose the following animals:
 {% include info.html text="I selected these animals as they are distinct from each other to make classification easier." %}\
 
 
-# Modified image searcher for classification.
+## Modified image searcher for classification.
 
 `searches = 'cat', 'eagle', 'turtle', 'cow', 'horse', 'anteater', 'shark', 'penguin', 'crocodile', 'dragonfly'
 path = Path('Animal Classifier')
