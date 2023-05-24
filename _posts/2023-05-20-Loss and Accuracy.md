@@ -1,6 +1,6 @@
 # Assessing Model Suitability
 
-"Machine intelligence is the last invention that humanity will ever need to make" - Nick Bostrom
+> "Machine intelligence is the last invention that humanity will ever need to make" - Nick Bostrom
 
 Now that I have some experience using fastai to create models, I started exploring different methods of investigating the effectiveness of the models I was designing. I was incredibly surprised by the sheer number of pretrained models available for use in fastai!
 
