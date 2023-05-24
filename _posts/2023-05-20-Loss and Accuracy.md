@@ -8,4 +8,6 @@ The resnet18 model is fast and effective enough for the classification models th
 
 ## Loss
 
-A loss function compares the predicted and actual output values of a classification model to determine how the model needs to change. This is implemented in fastai in the fine_tune() method which iteratively improves the pretrained model using the loss function.
+A loss function compares the predicted and actual output values of a classification model to determine how the model needs to change. This is implemented in fastai in the `fine_tune()` method which iteratively improves the pretrained model using the loss function.
+
+For an image classification problem, fastai automatically uses a Cross Entropy Loss functions.
