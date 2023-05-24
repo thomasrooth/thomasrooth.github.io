@@ -3,6 +3,9 @@
 I just finished writing my first classifier in a Jupyter Notebook using fastai based on the example provided in the 'Is it a bird?' lesson. It was surprisingly simple! My task was to adapt the classifer so that it could identify 10 differnet animals. 
 
 I chose the following animals:
+
+{% include info.html text="I selected these animals as they are distinct from each other to make classification easier." %}
+
 1. cat
 2. eagle
 3. turtle
@@ -13,8 +16,6 @@ I chose the following animals:
 8. penguin
 9. crocodile
 10. dragonfly
-
-{% include info.html text="I selected these animals as they are distinct from each other to make classification easier." %}
 
 
 ## Modified image searcher for classification.
@@ -44,3 +45,6 @@ I am still in awe that it only takes a few minutes to train a working classifier
 |   0    |  0.537959  |  0.418375   |  0.122727  | 01:32 |
 |   1    |  0.329051  |  0.387139   |  0.100000  | 01:34 |
 |   2    |  0.205212  |  0.393351   |  0.100000  | 01:34 |
+
+
+Now I just need to analyse my results using t-SNE and confusion matrices.
