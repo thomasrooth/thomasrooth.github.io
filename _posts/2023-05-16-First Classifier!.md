@@ -14,10 +14,11 @@ I chose the following animals:
 9. crocodile
 10. dragonfly
 
-{% include info.html text="I selected these animals as they are distinct from each other to make classification easier." %}\
+{% include info.html text="I selected these animals as they are distinct from each other to make classification easier." %}
 
 
 ## Modified image searcher for classification.
+
 
 `searches = 'cat', 'eagle', 'turtle', 'cow', 'horse', 'anteater', 'shark', 'penguin', 'crocodile', 'dragonfly'
 path = Path('Animal Classifier')
@@ -30,4 +31,6 @@ for o in searches:
     sleep(6)
     resize_images(path/o, max_size=400, dest=path/o)`
     
+
+Now the `DataBlock` containts the data of the 10 different images.
 
