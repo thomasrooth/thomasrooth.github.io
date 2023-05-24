@@ -1,5 +1,7 @@
 # Assessing Model Suitability
 
+"Machine intelligence is the last invention that humanity will ever need to make" - Nick Bostrom
+
 Now that I have some experience using fastai to create models, I started exploring different methods of investigating the effectiveness of the models I was designing. I was incredibly surprised by the sheer number of pretrained models available for use in fastai!
 
 ![](/images/models.JPG "Different pretrained models available in fastai")
@@ -22,3 +24,4 @@ A confusion matrix is a great tool for visualising model accuracy.
 
 From this visualisation, we can see how accurate the classification model is. It is able to classify every animal image correctly except for one. The model predicted that one image was a penguin, when in fact it was a horse. While the cause of this error is unknown, it is an interesting observation to consider.
 
+{% include info.html text="Did you know that horses and penguins look the same? I didn't..." %}
