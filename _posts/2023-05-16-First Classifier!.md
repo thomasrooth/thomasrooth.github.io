@@ -32,5 +32,15 @@ for o in searches:
     resize_images(path/o, max_size=400, dest=path/o)`
     
 
-Now the `DataBlock` containts the data of the 10 different images.
+Now the `DataBlock` containts the data of the 10 different images. The below image shows a batch from the datablock.
 
+![](/images/batch.JPG "Batch from DataBlock")
+
+
+I am still in awe that it only takes a few minutes to train a working classifier of 10 differnet animals. Fine tuning the model takes less than 5 minutes as shown by the table below.
+
+| epoch  | Train Loss | Valid Loss  | Error Rate |  Time |
+| ------ | ---------- | ----------- | ---------- | ----- |
+|   0    |  0.537959  |  0.418375   |  0.122727  | 01:32 |
+|   1    |  0.329051  |  0.387139   |  0.100000  | 01:34 |
+|   2    |  0.205212  |  0.393351   |  0.100000  | 01:34 |
