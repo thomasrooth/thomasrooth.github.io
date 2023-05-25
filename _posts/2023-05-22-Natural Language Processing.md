@@ -1,4 +1,5 @@
 ## Natural Language Processing
+This is a collection of concepts and resources that I found fascinating during Jeremy Howard's fastai lesson on NLP.
 
 What does NLP do? The first language model developed, ULMfit, was attempting to guess the next word in a Wikipedia article. NLP models need to understand how language works, how things are expressed and what is true.
 
@@ -31,8 +32,7 @@ The [Hugging Face](https://huggingface.co/) model hub contains a variety of pret
 ![](/images/hf-logo-with-title.png "")
 
 
-
-
+### Tokenisation
 Tokenisation breaks the document into words (but not really words).
 - uncommon words split into small chunks
 
