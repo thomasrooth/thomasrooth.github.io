@@ -32,12 +32,14 @@ The [Hugging Face](https://huggingface.co/) model hub contains a variety of pret
 ![](/images/hf-logo-with-title.png "")
 
 
-### Tokenisation
-Tokenisation breaks the document into words (but not really words).
-- uncommon words split into small chunks
 
-Numericalisation converts tokens into numbers.
+### Tokenisation and Numericalisation
+Tokenisation breaks the document into words (but not really words). Words can be broken into smaller chunks if they are overly complicated or uncommon. Numericalisation is then used to convert those tokens into numbers. This is done using a simple dictionary lookup.
+
+
 
 
 ### Overfitting and Underfitting
-Use sklearn for regression
+
+![](/images/fitting.jpg "Examples of fitting, overfitting and underfitting.")
+
