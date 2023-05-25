@@ -28,6 +28,10 @@ The [Hugging Face](https://huggingface.co/) model hub contains a variety of pret
 
 
 
+![](/images/hf-logo-with-title.png "")
+
+
+
 
 Tokenisation breaks the document into words (but not really words).
 - uncommon words split into small chunks
