@@ -41,7 +41,9 @@ Tokenisation breaks the document into words (but not really words). Words can be
 
 ### Overfitting and Underfitting
 
-![](/images/fitting.jpg "Examples of fitting, overfitting and underfitting.")
+![](/images/fitting.JPG "Examples of fitting, overfitting and underfitting.")
+
+
 
 Overfitting a model means that the model is fit specifically to the training data. The model is so precise to the training data that it doesn't represent the data in general. Underfitting means that the model doesn't reflect the data at all. Typically this means that the order of the model is too low. The trend of the model doesn't represent the trend in the data. This emphasises the important of separate training and validation sets for model testing. A model may appear incredibly accurate when tested with the same data used to train it, but it is actually overfit to the training data.
 
