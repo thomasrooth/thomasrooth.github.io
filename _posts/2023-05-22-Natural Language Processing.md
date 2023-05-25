@@ -41,7 +41,14 @@ Tokenisation breaks the document into words (but not really words). Words can be
 
 ### Overfitting and Underfitting
 
+
+
+
 ![](/images/fitting.JPG "Examples of fitting, overfitting and underfitting.")
+
+
+
+
 
 
 
