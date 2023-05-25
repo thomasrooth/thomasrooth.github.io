@@ -1,11 +1,16 @@
 ## Natural Language Processing
 
-What does NLP do? The first language model developed, ULMfit, was attempting to guess the next word in a Wikipedia article. NLP models need to understand how language works, ow things are expressed and what is true.
-The model was able to predict the next word of any word in any article 36% of the time. That is insane!
+What does NLP do? The first language model developed, ULMfit, was attempting to guess the next word in a Wikipedia article. NLP models need to understand how language works, how things are expressed and what is true.
+
+
+{% include info.html text="The model was able to predict the next word of any word in any article 36% of the time. Impressive!" %}
+
 
 The first task Jeremy Howard did for a fastai course was adapting ULMfit to detect sentiment in text. He fine tuned the ULMfit model using IMDb movie reviews. The model was then able to predict the next word in IMDb movie reviews.
 
-Around this time, a new architecture was developed - Transformers!
+
+{% include alert.html text="Around this time, a new architecture was developed - Transformers!" %}
+
 
 NLP can be used for classifying documents. A document is any text that is inputted into an NLP document.
 
@@ -26,5 +31,5 @@ Tokenisation breaks the document into words (but not really words).
 Numericalisation converts tokens into numbers.
 
 
-# Overfitting
+# Overfitting and Underfitting
 Use sklearn for regression
