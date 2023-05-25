@@ -22,8 +22,12 @@ This is used for:
 - Triaging inbound emails
 
 
-# Hugging Face Model Hub
-The hugging face model hub contains a variety of pretrained models that are NLP specific. You can find a pretrained model for the specific document that you are dealing with.
+
+### Hugging Face Model Hub
+The [Hugging Face](https://huggingface.co/) model hub contains a variety of pretrained models that are NLP specific. You can find a pretrained model for the specific document that you are dealing with.
+
+
+
 
 Tokenisation breaks the document into words (but not really words).
 - uncommon words split into small chunks
@@ -31,5 +35,5 @@ Tokenisation breaks the document into words (but not really words).
 Numericalisation converts tokens into numbers.
 
 
-# Overfitting and Underfitting
+### Overfitting and Underfitting
 Use sklearn for regression
