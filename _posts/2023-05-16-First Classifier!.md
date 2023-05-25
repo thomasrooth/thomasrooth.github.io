@@ -21,16 +21,16 @@ I chose the following animals:
 ## Modified image searcher for classification.
 
 
-`searches = 'cat', 'eagle', 'turtle', 'cow', 'horse', 'anteater', 'shark', 'penguin', 'crocodile', 'dragonfly'
-path = Path('Animal Classifier')
-from time import sleep
+    searches = 'cat', 'eagle', 'turtle', 'cow', 'horse', 'anteater', 'shark', 'penguin', 'crocodile', 'dragonfly'
+    path = Path('Animal Classifier')
+    from time import sleep
 
-for o in searches:
-    dest = (path/o)
-    dest.mkdir(exist_ok=True, parents=True)
-    download_images(dest, urls=search_images(f'{o} photo'))
-    sleep(6)
-    resize_images(path/o, max_size=400, dest=path/o)`
+    for o in searches:
+        dest = (path/o)
+        dest.mkdir(exist_ok=True, parents=True)
+        download_images(dest, urls=search_images(f'{o} photo'))
+        sleep(6)
+        resize_images(path/o, max_size=400, dest=path/o)
     
 
 Now the `DataBlock` containts the data of the 10 different images. The below image shows a batch from the datablock.
@@ -38,7 +38,7 @@ Now the `DataBlock` containts the data of the 10 different images. The below ima
 ![](/images/batch.JPG "Batch from DataBlock")
 
 
-I am still in awe that it only takes a few minutes to train a working classifier of 10 differnet animals. Fine tuning the model takes less than 5 minutes as shown by the table below.
+I am still in awe that it only takes a few minutes to train a working classifier of 10 different animals. Fine tuning the model takes less than 5 minutes as shown by the table below.
 
 | epoch  | Train Loss | Valid Loss  | Error Rate |  Time |
 | ------ | ---------- | ----------- | ---------- | ----- |
